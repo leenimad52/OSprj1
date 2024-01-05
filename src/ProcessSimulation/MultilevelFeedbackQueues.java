@@ -45,7 +45,7 @@ public class MultilevelFeedbackQueues {
                 process.setRemainingBurstTime(process.getRemainingBurstTime() - burstTime);
 
                 if (process.getRemainingBurstTime() > 0) {
-                    queue3.add(process); // Remain in the same queue
+                    queue3.add(process); // Remain in the same priority queue
                 }
             } else {
                 currentTime++; // No process to execute, move to the next time unit

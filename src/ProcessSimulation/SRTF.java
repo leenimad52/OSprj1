@@ -1,7 +1,5 @@
 package ProcessSimulation;
-import java.util.List;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class SRTF {
@@ -18,6 +16,8 @@ public class SRTF {
                 shortestProcess.setRemainingBurstTime(shortestProcess.getRemainingBurstTime() - burstTime);
 
                 if (shortestProcess.getRemainingBurstTime() == 0) {
+                    // Update completion time for the completed process
+                    shortestProcess.setCompletionTime(currentTime);
                     processes.remove(shortestProcess);
                 }
             } else {

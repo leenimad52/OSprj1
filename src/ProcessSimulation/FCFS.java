@@ -11,8 +11,9 @@ public class FCFS {
                 currentTime = process.getArrivalTime();
             }
 
-            // Execute the process
-            // Update waiting and turnaround times
+            // Update the completion time for each process
+            process.setCompletionTime(currentTime + process.getBurstTime());
+
             currentTime += process.getBurstTime();
         }
     }

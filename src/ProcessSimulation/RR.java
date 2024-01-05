@@ -4,10 +4,6 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
-
 public class RR {
     public static void schedule(List<PCB> processes, int quantum) {
         Queue<PCB> queue = new LinkedList<>();
@@ -24,12 +20,14 @@ public class RR {
                 int burstTime = Math.min(quantum, process.getRemainingBurstTime());
 
                 // Execute the process for the current time slice
-                // Update waiting and turnaround times
                 currentTime += burstTime;
                 process.setRemainingBurstTime(process.getRemainingBurstTime() - burstTime);
 
                 if (process.getRemainingBurstTime() > 0) {
                     queue.add(process);  // Re-queue the process if it's not finished
+                } else {
+                    // Update completion time for the finished process
+                    process.setCompletionTime(currentTime);
                 }
             } else {
                 currentTime++;
