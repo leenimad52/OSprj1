@@ -4,22 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e31975a-0703-4d1b-83dd-433437206c1f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ProcessSimulation/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProcessSimulation/Process.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProcessSimulation/ProcessManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProcessSimulation/ResultsTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProcessSimulation/scheduling/FCFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProcessSimulation/scheduling/MultilevelFeedbackQueues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProcessSimulation/scheduling/RR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProcessSimulation/scheduling/SJF.java" afterDir="false" />
+    <list default="true" id="9e31975a-0703-4d1b-83dd-433437206c1f" name="Changes" comment="1">
+      <change afterPath="$PROJECT_DIR$/src/ProcessSimulation/FCFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProcessSimulation/MultilevelFeedbackQueues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProcessSimulation/PCB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProcessSimulation/ProcessGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProcessSimulation/RR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProcessSimulation/SRTF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProcessSimulation/Simulation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FCFS.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MultilevelFeedbackQueues.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Process.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RR.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SRTF.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Simulation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProcessSimulation/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProcessSimulation/Process.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProcessSimulation/ProcessManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProcessSimulation/scheduling/FCFS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProcessSimulation/scheduling/MultilevelFeedbackQueues.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProcessSimulation/scheduling/RR.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProcessSimulation/scheduling/SJF.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,11 +65,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1704286339038</updated>
-      <workItem from="1704286340437" duration="21177000" />
+      <workItem from="1704286340437" duration="24901000" />
     </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1704455747633</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1704455747633</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
 </project>
